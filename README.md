@@ -1,10 +1,9 @@
 # Hangman Game
 
-Game design
-
 Game Design:
 
 -Create a method wordsFromFile that returns string array.
+
 	. Print welcome message.
 	. Print game menu.
 	. Ask user for seleciton.
@@ -15,19 +14,28 @@ Game Design:
 		. Convert arraylist back to string array.
 		. Return string array.
 	. Repeat same process for Medium.txt and Hard.txt.
+	
 - Add wordsFromFile method to the string array wordsArray.
 - Create a method pickRandomWord that takes string array wordsArray as an argument and returns string array.
+
 	. Declare string variable.
+	
 	. Generate random word from string array wordsArray and assign it to the string variable.
+	
 	. Split the string variable into its substrings based on the given regular expression.
+	
 	. Add the splitted string variable to the new string array letters.
+	
 	. return string array letters.
+	
 - Create string array secretWord and populate it with pickRandomWord method.
 - Create a string array displayDashes and populate it with string array secretWord.
+
 	. Create a loop that runs to the size of string array secretWord.
 		. Replace first index of string array displayDashes with dash.
 		. Move the counter to the next position until the loop is finished.
 - Create a method convertToWord that takes string array displayDashes as an argument and returns a string variable.
+
 	. Create a loop to the length of string array displayDashes.
 	. Check if first index of string array displayDashes is equal to dash, if true, assign it to an empty string variable.
 	. Return string variable.
