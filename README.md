@@ -1,5 +1,6 @@
-# Hangman
-Hangman game
+Hangman Game
+
+Game rules
 
 The word to guess is represented by a row of dashes, giving the number of letters, numbers and category.
 
